@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Referring Change Detection in Remote Sensing Imagery</title>
+  <meta name="description" content="Project page for Referring Change Detection in Remote Sensing Imagery." />
+
+  <!-- Open Graph (nice previews when shared) -->
+  <meta property="og:title" content="Referring Change Detection in Remote Sensing Imagery" />
+  <meta property="og:description" content="Project page + code for Referring Change Detection in Remote Sensing Imagery." />
+  <meta property="og:type" content="website" />
+  <!-- Optional after you add a teaser image -->
+  <!-- <meta property="og:image" content="assets/teaser.png" /> -->
+
+  <style>
+    :root { --bg:#ffffff; --fg:#111; --muted:#555; --card:#f6f8fa; --border:#e5e7eb; }
+    body { margin:0; background:var(--bg); color:var(--fg);
+           font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 40px 18px 70px; }
+    h1 { font-size: 2.05rem; margin: 0 0 10px; letter-spacing: -0.02em; }
+    .authors { color: var(--muted); margin: 0 0 16px; line-height: 1.35; }
+    .badge { display:inline-block; border:1px solid var(--border); padding:4px 10px;
+             border-radius:999px; font-size: 0.9rem; color: var(--muted); margin: 0 8px 8px 0; }
+    .btns { margin: 18px 0 26px; display:flex; flex-wrap:wrap; gap:10px; }
+    .btn {
+      display:inline-flex; align-items:center; gap:8px;
+      padding: 10px 14px; border:1px solid var(--border); border-radius: 12px;
+      text-decoration:none; color:inherit; background:#fff;
+    }
+    .btn:hover { background: var(--card); }
+    .grid { display:grid; grid-template-columns: 1.1fr 0.9fr; gap: 16px; }
+    @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 16px; }
+    img { width:100%; height:auto; border-radius: 14px; border: 1px solid var(--border); background:#fff; }
+    .section { margin-top: 26px; }
+    .section h2 { font-size: 1.35rem; margin: 0 0 10px; letter-spacing: -0.01em; }
+    p { margin: 0 0 10px; line-height: 1.55; }
+    ul { margin: 8px 0 0 18px; }
+    pre { margin: 10px 0 0; padding: 14px; border-radius: 14px;
+          background: #0b1020; color: #e6edf3; overflow:auto; border: 1px solid #111827; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 0.95rem; }
+    a { color: inherit; }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Referring Change Detection in Remote Sensing Imagery</h1>
+
+    <!-- Edit these lines -->
+    <p class="authors">
+      <span class="badge">Paper</span>
+      <span class="badge">Remote Sensing</span>
+      <span class="badge">Vision-Language</span><br/>
+      <b>Yilmaz Korkmaz</b> · (add co-authors) · (add venue/year)
+    </p>
+
+    <div class="btns">
+      <!-- Add paper.pdf later (place it in repo root or /assets) -->
+      <a class="btn" href="#" onclick="alert('PDF not uploaded yet. Add paper.pdf and update this link.'); return false;">📄 PDF (coming)</a>
+
+      <!-- Add arXiv later -->
+      <a class="btn" href="#" onclick="alert('arXiv link not ready yet. Update when available.'); return false;">🧾 arXiv (coming)</a>
+
+      <!-- Your code link -->
+      <a class="btn" href="https://github.com/yilmazkorkmaz1/referring_change_detection" target="_blank" rel="noopener">💻 Code</a>
+
+      <!-- Optional: poster/demo -->
+      <!-- <a class="btn" href="poster.pdf">🪧 Poster</a> -->
+      <!-- <a class="btn" href="https://youtu.be/XXXX">🎥 Video</a> -->
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2 style="margin:0 0 10px;">Abstract</h2>
+        <p>
+          <!-- Paste your abstract here -->
+          (Add your abstract here. Keep it ~150–250 words for readability.)
+        </p>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 10px;">Teaser</h2>
+        <!-- Add an image at assets/teaser.png -->
+        <img src="assets/teaser.png" alt="Teaser figure (add assets/teaser.png)" />
+        <p style="margin-top:10px; color: var(--muted); font-size:0.95rem;">
+          Teaser caption: (one sentence explaining the task and result).
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Method</h2>
+      <p>
+        (2–4 bullets or a short paragraph describing your pipeline: inputs, text prompt, model, output change map.)
+      </p>
+      <!-- Optional method figure -->
+      <!-- <img src="assets/method.png" alt="Method overview" /> -->
+    </div>
+
+    <div class="section">
+      <h2>Results</h2>
+      <p>(Add key qualitative figure + 1–2 lines of takeaway.)</p>
+      <!-- <img src="assets/results.png" alt="Qualitative results" /> -->
+    </div>
+
+    <div class="section">
+      <h2>Resources</h2>
+      <ul>
+        <li>Code: <a href="https://github.com/yilmazkorkmaz1/referring_change_detection" target="_blank" rel="noopener">github.com/yilmazkorkmaz1/referring_change_detection</a></li>
+        <li>Paper PDF: (upload <code>paper.pdf</code> and link it)</li>
+        <li>arXiv: (add once ready)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Citation</h2>
+      <p>If you use this work, please cite:</p>
+      <pre><code>@article{korkmaz2025referring,
+  title   = {Referring Change Detection in Remote Sensing Imagery},
+  author  = {Korkmaz, Yilmaz and ...},
+  journal = {arXiv preprint arXiv:????.?????},
+  year    = {2025}
+}</code></pre>
+    </div>
+
+    <footer>
+      <p>Contact: ykorkma1@jhu.edu (edit as needed)</p>
+    </footer>
+  </div>
+</body>
+</html>
